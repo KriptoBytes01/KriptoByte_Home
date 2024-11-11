@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply bg-cover bg-center;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Places video behind other content */
+}
+Image {
+  background: transparent;
+}
+
+header {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
